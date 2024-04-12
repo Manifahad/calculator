@@ -21,3 +21,7 @@ else if (answer.operator === "division") {
 else if (answer.operator === "muiltiplication") {
     console.log(`the value is ${answer.firstNumber * answer.secondNumber}`);
 }
+else {
+    console.log("please correct operator ");
+}
+console.log("the end");

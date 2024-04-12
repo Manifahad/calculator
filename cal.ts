@@ -16,9 +16,11 @@ if (answer.operator ==="adition") {
     
 } else if (answer.operator ==="substraction") {
     console.log(`the value is ${answer.firstNumber - answer.secondNumber}`)
-    
+
+  
 } else if(answer.operator==="division"){
     console.log(`the value is ${answer.firstNumber / answer.secondNumber}`)
 } else if(answer.operator==="muiltiplication"){
     console.log(`the value is ${answer.firstNumber * answer.secondNumber}`)
-}
+} else {console.log("please correct operator ")}
+console.log("the end");
