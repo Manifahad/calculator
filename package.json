@@ -1,0 +1,19 @@
+{
+  "name": "seveneightcalculator",
+  "version": "1.0.1",
+  "description": "A simple calculator, nodejs and inquirer",
+  "main": "cal.js",
+  "type": "module",
+  "bin" : "cal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fahad Iqbal Khan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
