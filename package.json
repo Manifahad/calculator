@@ -1,6 +1,6 @@
 {
   "name": "seveneightcalculator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple calculator, nodejs and inquirer",
   "main": "cal.js",
   "type": "module",

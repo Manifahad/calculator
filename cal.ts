@@ -7,7 +7,7 @@ const answer = await inquirer.prompt([
 {message: "select the operator",
 type:"list",
 name: "operator",
-choices:["adition","substraction","division","multipication"],
+choices:["adition","substraction","division","multiplication"],
 }
 ]) 
 if (answer.operator ==="adition") {
@@ -20,7 +20,7 @@ if (answer.operator ==="adition") {
   
 } else if(answer.operator==="division"){
     console.log(`the value is ${answer.firstNumber / answer.secondNumber}`)
-} else if(answer.operator==="muiltiplication"){
+} else if(answer.operator==="multiplication"){
     console.log(`the value is ${answer.firstNumber * answer.secondNumber}`)
-} else {console.log("please correct operator ")}
+} else {console.log("please enter correct operator ")}
 console.log("the end");
